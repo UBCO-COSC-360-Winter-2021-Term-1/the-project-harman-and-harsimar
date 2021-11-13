@@ -18,7 +18,7 @@ running smoothly and providing the best experience for each screen and device.
 
 ### Baseline Objectives
 
-** Website user’s objectives:**
+**Website user’s objectives:**
 Browse discussions without registering
 Search for posts by keyword without registering
 Search for items/posts by keyword without registering
