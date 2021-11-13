@@ -1,4 +1,4 @@
-MySpace
+<h1>MySpace</h1>
 Harman Sahota, Harsimar Singh
 
 Project Proposal
@@ -21,9 +21,6 @@ Website user’s objectives:
 Browse discussions without registering
 Search for posts by keyword without registering
 
-MySpace
-
-1
 
 Search for items/posts by keyword without registering
 Register at the site by providing their name, e-mail and image
@@ -51,12 +48,7 @@ asynchronous updates using AJAX in certain pages where the content is
 dynamically filled.
 User images (profile pictures).
 Error handling
-
-MySpace
-
-2
-
-Navigation breadcrumb strategy
+Navigation breadcrumb strategy
 Simple discussion (topics) grouping and display
 
 Backend
@@ -72,8 +64,3 @@ Accessibility
 Alerts on page changes
 Collapsible items/treads without page reloading.
 
-MySpace
-
-3
-
-
