@@ -1,4 +1,4 @@
-<h1>MySpace</h1>
+MySpace
 Harman Sahota, Harsimar Singh
 
 Project Proposal
