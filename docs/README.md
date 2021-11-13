@@ -22,43 +22,43 @@ running smoothly and providing the best experience for each screen and device.
 - Browse discussions without registering
 - Search for posts by keyword without registering
 - Search for items/posts by keyword without registering
--Register at the site by providing their name, e-mail and image
+- Register at the site by providing their name, e-mail and image
 - Allow user login by providing user id and password
 - Create and comment on discussions when logged into the site
 - Users are required to be able to view/edit their profile
 - User password recovery (via email)
 
 **Website administrator’s objectives:**
-Search for user by name, email or post
-Enable/disable users
-Edit/remove items and comments
+- Search for user by name, email or post
+- Enable/disable users
+- Edit/remove items and comments
 
 ### Features
 Some of our features that our site includes are listed as follows:
 
 **Front-End**
-Easy to use vertical navbar with hover effects and provides a responsive design by
-switching according the device size.
-Hand-Styled Layout with contextual menus, 3 column layout using appropriate
+- Easy to use vertical navbar with hover effects and provides a responsive design by
+- switching according the device size.
+- Hand-Styled Layout with contextual menus, 3 column layout using appropriate
 design principles.
-Form-validation with javacript.
-Site mantains state (ie. displays when the user is being logged on).
-asynchronous updates using AJAX in certain pages where the content is
+- Form-validation with javacript.
+- Site mantains state (ie. displays when the user is being logged on).
+- asynchronous updates using AJAX in certain pages where the content is
 dynamically filled.
-User images (profile pictures).
-Error handling
-Navigation breadcrumb strategy
-Simple discussion (topics) grouping and display
+- User images (profile pictures).
+- Error handling
+- Navigation breadcrumb strategy
+- Simple discussion (topics) grouping and display
 
 **Backend**
-Server-side scripting with PHP
-Data storage in MySQL
+- Server-side scripting with PHP
+- Data storage in MySQL
 
 **Additional Features**
-Activity by date
-Styling flourishes
-Private, Registered Users or Public mode when making a post
-Search and analysis for items
-Accessibility
-Alerts on page changes
-Collapsible items/treads without page reloading.
+- Activity by date
+- Styling flourishes
+- Private, Registered Users or Public mode when making a post
+- Search and analysis for items
+- Accessibility
+- Alerts on page changes
+- Collapsible items/treads without page reloading.
