@@ -1,9 +1,9 @@
-#MySpace
+# MySpace
 Harman Sahota, Harsimar Singh
 
-##Project Proposal
+## Project Proposal
 
-#Description
+# Description
 Our website "MySpace", is a website that allows users to view posts , stories and make
 comments on posts as well create their own posts and stories by registering and then
 logging in. Unregistered users are able to view others posts and stories but are not able
