@@ -1,1 +1,66 @@
-Please all your project related documentation in this folder.
+#MySpace
+Harman Sahota, Harsimar Singh
+
+##Project Proposal
+
+#Description
+Our website "MySpace", is a website that allows users to view posts , stories and make
+comments on posts as well create their own posts and stories by registering and then
+logging in. Unregistered users are able to view others posts and stories but are not able
+to make their own unless they register. Users are also able to view hacker news on this
+thread based community website.
+
+There are also seperate additional featurs for administrators that allow them to monitor
+other users activity. Our website is easy to navigate and has an interactive and user
+friendly UI. We are also using tried and tested techniques for our UI design in order to
+provide a better experience for the users, we also ensure things on the backend are
+running smoothly and providing the best experience for each screen and device.
+
+Baseline Objectives
+
+Website user’s objectives:
+Browse discussions without registering
+Search for posts by keyword without registering
+
+
+Search for items/posts by keyword without registering
+Register at the site by providing their name, e-mail and image
+Allow user login by providing user id and password
+Create and comment on discussions when logged into the site
+Users are required to be able to view/edit their profile
+User password recovery (via email)
+
+Website administrator’s objectives:
+Search for user by name, email or post
+Enable/disable users
+Edit/remove items and comments
+
+Features
+Some of our features that our site includes are listed as follows :
+
+Front-End
+Easy to use vertical navbar with hover effects and provides a responsive design by
+switching according the device size.
+Hand-Styled Layout with contextual menus, 3 column layout using appropriate
+design principles.
+Form-validation with javacript.
+Site mantains state (ie. displays when the user is being logged on).
+asynchronous updates using AJAX in certain pages where the content is
+dynamically filled.
+User images (profile pictures).
+Error handling
+Navigation breadcrumb strategy
+Simple discussion (topics) grouping and display
+
+Backend
+Server-side scripting with PHP
+Data storage in MySQL\
+
+Additional Features
+Activity by date
+Styling flourishes
+Private, Registered Users or Public mode when making a post
+Search and analysis for items
+Accessibility
+Alerts on page changes
+Collapsible items/treads without page reloading.
