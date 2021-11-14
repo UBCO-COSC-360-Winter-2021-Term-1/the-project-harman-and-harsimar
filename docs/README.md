@@ -38,7 +38,6 @@ Some of our features that our site includes are listed as follows:
 
 **Front-End**
 - Easy to use vertical navbar with hover effects and provides a responsive design by
-- switching according the device size.
 - Hand-Styled Layout with contextual menus, 3 column layout using appropriate
 design principles.
 - Form-validation with javacript.
