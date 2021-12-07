@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>
+        Registration Page
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/login.css" media="screen" />
+</head>
+
+<body>
+    <div class="box-form">
+        <div class="left">
+            <h2>
+
+                Welcome to Registration Page
+
+            </h2>
+            <br><br><br>
+            <div class="inputs">
+                <form action="../server/processlogin.php" method="POST" id="newaccount" onsubmit="validateForm()">
+                    <label>
+                        Username :
+                    </label>
+                    <input type="text" placeholder="user name" id="username" name="username" class="username">
+                    <br>
+                    <br>
+                    <label>
+                        Email id :
+                    </label>
+                    <input type="email" placeholder="email" id="email" name="email" class="email">
+                    <br>
+                    <br>
+                    <label>
+                        Password :
+                    </label>
+                    <input type="password" placeholder="password" id="pswd" name="pswd" class="pswd">
+                    <br>
+                    <br>
+                    <button>Register</button>
+                    <br>
+                    <br>
+                </form>
+                <p><a href="../server/login.php">Go back to Login page</a> </p>
+            </div>
+
+        </div>
+        <div class="right">
+            <img src="img/gift.png" id="right">
+        </div>
+    </div>
+</body>
+<script>
+    function validateForm() {
+        var x = document.forms["newaccount"]["username"].value;
+        if (x == "" || x == NULL) {
+
+            document.forms["newaccount"]["username"].style.border = '1px solid red';
+            event.preventDefault();
+
+
+        }
+        var y = document.forms["newaccount"]["email"].value;
+        if (y == "" || y == NULL) {
+
+            document.forms["newaccount"]["email"].style.border = '1px solid red';
+            event.preventDefault();
+
+
+        }
+        var z = document.forms["newaccount"]["pswd"].value;
+        if (z == "" || z == NULL) {
+
+            document.forms["newaccount"]["pswd"].style.border = '1px solid red';
+            event.preventDefault();
+
+
+        }
+        return true;
+
+    }
+
+</script>
+
+</html>

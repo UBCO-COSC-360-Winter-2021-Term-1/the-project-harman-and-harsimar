@@ -1,0 +1,71 @@
+<html>
+
+
+<head>
+    <title>
+        Forgot password ?
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/login.css" media="screen" />
+</head>
+
+<body>
+    <div class="box-form">
+        <div class="left">
+            <h2>
+
+                Passswor Recovery Page
+
+            </h2>
+
+            <br><br><br>
+            <div class="inputs">
+                <form action="../server/password.php" id="Recovery" method="POST" onsubmit="validateForm()">
+                    <label>
+                        Email ID :
+                    </label>
+                    <input type="email" placeholder="email" id="mail" name="mail" class="mail">
+                    <br>
+                    <br>
+                    <label>
+                        New Password :
+                    </label>
+                    <input type="password" placeholder="new password" id="newpsw" name="newpsw" class="newpsw">
+                    <br>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+                <br>
+                <p><a href="../server/login.php">Go back to Login page</a> </p>
+
+            </div>
+        </div>
+        <div class="right">
+            <img src="img\gift.png" id="right">
+        </div>
+    </div>
+</body>
+<script>
+    function validateForm() {
+        var x = document.forms["Recovery"]["mail"].value;
+        if (x == "" || x == NULL) {
+
+            document.forms["Recovery"]["mail"].style.border = '1px solid red';
+            event.preventDefault();
+
+
+        }
+        var y = document.forms["Recovery"]["newpsw"].value;
+        if (y == "" || y == NULL) {
+
+            document.forms["Recovery"]["newpsw"].style.border = '1px solid red';
+            event.preventDefault();
+
+
+        }
+        return true;
+
+    }
+
+</script>
+
+</html>
