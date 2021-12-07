@@ -104,7 +104,7 @@
   <?php
 
 $host = "localhost";
-$database = "db28337426";
+$database = "db_28337426";
 $user = "28337426";
 $password = "28337426";
 
