@@ -55,9 +55,9 @@
     unset($_SESSION['type']);
     }
   $host = "localhost";
-  $database = "myspace";
-  $user = "webuser";
-  $password = "myspace@12345";
+  $database = "db_28337426";
+  $user = "28337426";
+  $password = "28337426";
   
   $connection = mysqli_connect($host, $user, $password, $database);
   

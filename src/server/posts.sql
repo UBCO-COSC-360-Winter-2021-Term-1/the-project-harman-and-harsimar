@@ -182,14 +182,14 @@ INSERT INTO `comments` (`username`,`comment`, `id`) VALUES
 ('LenniGengar', 'A good question... For another time. That, and Finn wanting to tell Rey something in the quicksand'
 , '9');
 
-CREATE TABLE 'users'(
+CREATE TABLE users(
   `username` varchar(255),
   `email` varchar(255),
   `password` varchar(255),
   `usertype` varchar(255)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
- CREATE TABLE stories(id int, img varbinary(max))ENGINE=InnoDB DEFAULT CHARSET=latin1;
+ 
 
 
 
